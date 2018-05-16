@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FloatingLabelFormApp</string>
+
+
+    <string name="hint_mail">Mail is wrong</string>
+    <string name="hint_name">Name is wrong</string>
+    <string name="hint_option">Option is wrong</string>
+</resources>

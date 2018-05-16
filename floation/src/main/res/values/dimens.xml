@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_xsmall">10dp</dimen>
+    <dimen name="font_small">12dp</dimen>
+    <dimen name="font_medium">14dp</dimen>
+    <dimen name="font_large">16dp</dimen>
+    <dimen name="font_xlarge">18dp</dimen>
+    <dimen name="font_xxlarge">24dp</dimen>
+
+    <dimen name="pm_narrow">5dp</dimen>
+    <dimen name="pm_standart">10dp</dimen>
+    <dimen name="pm_wide">15dp</dimen>
+    <dimen name="pm_xwide">30dp</dimen>
+    <dimen name="login_button_width">250dp</dimen>
+    <dimen name="error_def_width">240dp</dimen>
+
+    <dimen name="app_button_height">46dp</dimen>
+</resources>

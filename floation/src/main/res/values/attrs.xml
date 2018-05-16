@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Floation">
+        <attr name="android:hint" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLines" />
+        <attr name="android:minLines" />
+        <attr name="android:gravity" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:textSize" />
+        <attr name="android:ellipsize" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableRight" />
+        <attr name="android:drawablePadding" />
+        <attr name="android:entries" />
+        <attr name="android:background" />
+        <attr name="flt_iconSize" format="dimension" />
+        <attr name="flt_drawableTint" format="reference|color" />
+        <attr name="flt_textColorOption" format="reference|color" />
+        <attr name="flt_textFont" format="string" />
+        <attr name="flt_hintFont" format="string" />
+        <attr name="flt_hintLabelResource" format="reference" />
+        <attr name="flt_optionFont" format="string" />
+        <attr name="flt_errorMessage" format="string" />
+        <attr name="flt_isRequired" format="boolean" />
+        <attr name="flt_type" format="enum">
+            <enum name="editText" value="1"></enum>
+            <enum name="textView" value="2"></enum>
+            <enum name="spinner_dropdown" value="3"></enum>
+            <enum name="spinner_dialog" value="4"></enum>
+            <enum name="email" value="5"></enum>
+        </attr>
+        <attr name="flt_patternType" format="enum">
+            <enum name="none" value="0"></enum>
+            <enum name="card" value="1"></enum>
+            <enum name="phone" value="2"></enum>
+            <enum name="date" value="3"></enum>
+        </attr>
+        <attr name="flt_validationType" format="enum">
+            <enum name="name" value="1"></enum>
+            <enum name="email" value="2"></enum>
+            <enum name="numberOnly" value="3"></enum>
+            <enum name="textOnly" value="4"></enum>
+            <enum name="uppercase" value="5"></enum>
+            <enum name="lowercase" value="6"></enum>
+            <enum name="iban" value="7"></enum>
+            <enum name="passwordBasic6" value="8"></enum>
+            <enum name="passwordBasic8" value="9"></enum>
+            <enum name="passwordNumChar6" value="10"></enum>
+            <enum name="passwordNumChar8" value="11"></enum>
+            <enum name="passwordPowerful" value="12"></enum>
+        </attr>
+        <attr name="flt_errorStyle" format="enum">
+            <enum name="toast" value="1"></enum>
+            <enum name="shake" value="2"></enum>
+            <enum name="snackbar" value="3"></enum>
+            <enum name="dialog" value="4"></enum>
+            <enum name="iconRight" value="5"></enum>
+            <enum name="iconLeft" value="5"></enum>
+            <enum name="underLabel" value="5"></enum>
+        </attr>
+    </declare-styleable>
+</resources>

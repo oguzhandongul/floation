@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oguzhandongul.floatinglabelformapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+
+        <!--<com.oguzhandongul.floation.Floation-->
+            <!--android:id="@+id/flfName"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="46dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="@dimen/pm_wide"-->
+            <!--android:hint="Test Hint"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLines="1"-->
+            <!--android:entries="@layout/emails_spinner_item"-->
+            <!--app:flt_errorMessage="@string/hint_name"-->
+            <!--app:flt_type="editText"-->
+            <!--app:flt_validationType="name" />-->
+
+        <!--<com.oguzhandongul.floation.Floation-->
+            <!--android:id="@+id/flfMail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="46dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="160dp"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLines="1"-->
+            <!--android:hint="Test Hint"-->
+            <!--app:flt_errorMessage="@string/hint_mail"-->
+            <!--app:flt_type="email"-->
+            <!--app:flt_validationType="email" />-->
+
+        <!--<com.oguzhandongul.floation.Floation-->
+            <!--android:id="@+id/flfOption"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="46dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="60dp"-->
+            <!--android:hint="Test Hint"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLines="1"-->
+            <!--app:flt_errorMessage="@string/hint_option"-->
+            <!--app:flt_textColorOption="@color/colorPrimary"-->
+            <!--app:flt_type="spinner_dropdown"-->
+            <!--app:flt_validationType="lowercase" />-->
+
+
+        <Button
+            android:id="@+id/buttonValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VALIDATE" />
+
+
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.oguzhandongul.floatinglabelformapp.PlusOneFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</android.support.constraint.ConstraintLayout>

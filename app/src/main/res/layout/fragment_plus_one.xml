@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PlusOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.oguzhandongul.floation.Floation
+            android:id="@+id/flfName"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/pm_wide"
+            android:hint="Test Hint"
+            android:inputType="text"
+            android:maxLines="1"
+            app:flt_hintLabelResource="@layout/textview_custom_hint"
+            app:flt_errorMessage="@string/hint_name"
+            app:flt_type="editText"
+            app:flt_isRequired="false"
+            app:flt_validationType="name" />
+
+
+
+
+        <com.oguzhandongul.floation.Floation
+            android:id="@+id/flfMail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/pm_wide"
+            android:hint="Test Hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:entries="@array/mails"
+            app:flt_hintLabelResource="@layout/textview_custom_hint"
+            app:flt_errorMessage="@string/hint_mail"
+            app:flt_type="email"
+            app:flt_isRequired="true"
+            app:flt_validationType="email" />
+
+
+        <Button
+            android:id="@+id/buttonValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VALIDATE" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
